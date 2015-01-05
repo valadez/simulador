@@ -1,0 +1,20 @@
+﻿Start: user:vala bot:jarvis ip: rand:2157 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, vala. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan02'15-12:22:17 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan02'15-12:04:22 0:Jan02'15-12:22:13 F:0 P:0 Why:~introductions.1.0.~control.0.0 
+Command: :build Jarvis
+Start: user:vala bot:jarvis ip: rand:2 (~introductions) 0 ==> Parece que no le he entendido, podria repetirlo?  When:Jan02'15-12:22:27 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan02'15-12:22:20 0:Jan02'15-12:22:13 F:0 P:0 Why:~control.3.0 
+Respond: user:vala bot:jarvis ip: (~introductions) 1   test ==> Parece que no le he entendido, podria repetirlo?  When:Jan02'15-12:22:31 Why:~control.3.0 
+Respond: user:vala bot:jarvis ip: (~introductions) 2   test ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan02'15-12:22:34 Why:~control.3.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 3   pagerank ==> Desea informacion acerca del pagerank?  When:Jan02'15-12:22:38 Why:~pagerank.1.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 4   no ==> De acuerdo, estoy listo para recibir nuevas instrucciones.  When:Jan02'15-12:22:40 Why:~pagerank.1.6 
+Respond: user:vala bot:jarvis ip: (~pagerank) 5   test ==> Test de interjeccion. Haga una afirmacion o negacion  When:Jan02'15-12:22:43 Why:~pagerank.2.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 6   nel ==> Acaba de realizar una negacion  When:Jan02'15-12:22:50 Why:~pagerank.2.2 
+Command: :build Jarvis
+Start: user:vala bot:jarvis ip: rand:7 (~introductions) 6 ==> En que le puedo ayudar hoy?  When:Jan02'15-12:23:16 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan02'15-12:23:10 0:Jan02'15-12:22:13 F:0 P:Jan02'15-12:22:50 Why:~introductions.0.0.~control.0.0 
+Respond: user:vala bot:jarvis ip: (~introductions) 7   test ==> Parece que no le he entendido, podria repetirlo?  When:Jan02'15-12:23:19 Why:~control.3.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 8   pagerank test ==> Desea informacion acerca del pagerank?  When:Jan02'15-12:23:26 Why:~pagerank.1.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 9   no ==> De acuerdo, estoy listo para recibir nuevas instrucciones.  When:Jan02'15-12:23:28 Why:~pagerank.1.6 
+Respond: user:vala bot:jarvis ip: (~pagerank) 10   test ==> Test de interjeccion. Haga una afirmacion o negacion  When:Jan02'15-12:23:30 Why:~pagerank.2.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 11   ni madres ==> Lo lamento, pero mi nivel de entendimiento es, de momento, limitado. Tendra que hacer las preguntas correctas.  When:Jan02'15-12:23:35 Why:~control.3.0 
+Command: :build Jarvis
+Start: user:vala bot:jarvis ip: rand:12 (~introductions) 11 ==> En que le puedo ayudar hoy?  When:Jan02'15-12:33:10 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan02'15-12:33:02 0:Jan02'15-12:22:13 F:0 P:Jan02'15-12:23:35 Why:~introductions.0.0.~control.0.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 12   Dame informacion sobre el pagerank ==> Desea informacion acerca del pagerank?  When:Jan02'15-12:33:18 Why:~pagerank.1.0 
+Respond: user:vala bot:jarvis ip: (~pagerank) 13   simon ==> Lo lamento, pero mi nivel de entendimiento es, de momento, limitado. Tendra que hacer las preguntas correctas.  When:Jan02'15-12:33:26 Why:~control.3.0 

@@ -1,0 +1,46 @@
+ <si ~si
+ <sip ~si
+ <yes ~si
+ <ok ~si
+ <simon ~si
+ <De_acuerdo ~si
+ <favor ~si
+ <amable ~si
+ <vale ~si
+ <yastas ~si
+ <venga ~si
+ 
+ <no ~no
+ <nel ~no
+ <ni_madres ~no
+ <en_otra_ocasion ~no
+ <en_otro_momento
+ <despues ~no
+ <luego ~no
+ 
+ <PIB ~ramamacrointer
+ <producto_interno_bruto ~ramamacrointer
+ <inflacion ~ramamacrointer
+ <importaciones ~ramamacrointer
+ <exportaciones ~ramamacrointer
+ <desempleo ~ramamacrointer
+ <empleo ~ramamacrointer
+ <crecimiento ~ramamacrointer
+ <PNB ~ramamacrointer
+ <prima_de_riesgo ~ramamacrointer
+ <balanza_de_pagos ~ramamacrointer
+ <tasa_de_interes ~ramamacrointer
+ <indicadores ~ramamacrointer
+
+ <huevos ~insulto
+ <webos ~insulto
+ <puta ~insulto
+ <verga ~insulto
+ <chingada ~insulto
+ <chinga ~insulto
+ <mames ~insulto
+ <idiota ~insulto
+ <imbecil ~insulto
+ <pendejo ~insulto
+ 
+ 

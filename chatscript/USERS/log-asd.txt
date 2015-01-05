@@ -1,0 +1,6 @@
+﻿Start: user:asd bot:jarvis ip: rand:1086 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, asd. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan02'15-14:15:48 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan02'15-12:33:02 0:Jan02'15-14:15:43 F:0 P:0 Why:~introductions.1.0.~control.0.0 
+Command: :exit
+Unknown command :exit
+Respond: user:asd bot:jarvis ip: (~introductions) 1   :exit ==> Parece que no le he entendido, podria repetirlo?  When:Jan02'15-14:15:51 Why:~control.3.0 
+Command: :quit
+Exiting ChatScript via Quit

@@ -1,0 +1,181 @@
+﻿Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-11:11:54 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-10:02:17 0:Jan04'15-11:11:49 F:0 P:0 Why:~introductions.1.0.~control.0.0 
+Start: user:valadez bot:jarvis ip: rand:2 (~introductions) 0 ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-11:12:05 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-10:02:17 0:Jan04'15-11:11:49 F:0 P:0 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 1   hola ==> Muy buen dia senor, en que le puedo ayudar hoy?  When:Jan04'15-11:12:16 Why:~introductions.3.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-18:55:12 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-10:02:17 0:Jan04'15-11:11:49 F:0 P:Jan04'15-11:12:16 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 1   simulemos ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:11:06 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 2   pagerank ==> Desea informacion acerca del pagerank?  When:Jan04'15-21:11:10 Why:~pagerank.1.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 3   no ==> De acuerdo, introduzca el rfc del contribuyente si quiere obtener su pagerank.  When:Jan04'15-21:11:12 Why:~pagerank.1.6 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 4   quiero simular el PIB ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:11:33 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 5   quiero simular el PIB ==> Lo lamento, pero mi nivel de entendimiento es, de momento, limitado. Tendra que hacer las preguntas correctas.  When:Jan04'15-21:11:38 Why:~control.3.0 
+Command: :build Jarvis
+Start: user:valadez bot:jarvis ip: rand:6 (~introductions) 5 ==> Bienvenido de nuevo valadez, son las 21: 12 .  When:Jan04'15-21:12:03 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:11:54 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:11:38 Why:~introductions.0.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 6   simula el PIB ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:12:28 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 7   PIB ==> Lo lamento, pero en este momento no estan habilitadas las funciones de simulacion macroeconomica. Desea hacer algo mas?  When:Jan04'15-21:12:40 Why:~introductions.12.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:12:53 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:11:54 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:12:40 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 1   PIB ==> Lo lamento, pero en este momento no estan habilitadas las funciones de simulacion macroeconomica. Desea hacer algo mas?  When:Jan04'15-21:12:57 Why:~introductions.12.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:13:06 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:11:54 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:12:57 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 1   Simula el PIB por favor ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:13:12 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 2   Simula el PIB por favor ==> Lo lamento, pero mi nivel de entendimiento es, de momento, limitado. Tendra que hacer las preguntas correctas.  When:Jan04'15-21:13:17 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 3   ramamacrointer ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:13:31 Why:~control.3.0 
+Command: :build Harry
+Start: user:valadez bot:harry ip: rand:1760 (~introductions) 0 ==> Welcome to ChatScript.  When:Jan04'15-21:13:47 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:13:39 0:Jan04'15-21:13:46 F:0 P:0 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:harry ip: (~childhood) 1   how was your childhood ==> I was happy as a kid.  When:Jan04'15-21:14:39 Why:~childhood.6.0=HAPPY 
+Command: :reset user
+Start: user:valadez bot:harry ip: rand:1760 (~introductions) 0 ==> Welcome to ChatScript.  When:Jan04'15-21:14:56 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:13:39 0:Jan04'15-21:13:46 F:0 P:Jan04'15-21:14:39 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:harry ip: (~childhood) 1   how was your childhood ==> I was happy as a kid.  When:Jan04'15-21:15:04 Why:~childhood.6.0=HAPPY 
+Command: :build Jarvis
+Start: user:valadez bot:jarvis ip: rand:4 (~introductions) 3 ==> En que le puedo ayudar hoy?  When:Jan04'15-21:36:38 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.0.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:37:06 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.1.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:43:14 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.1.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:43:32 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.1.0.~control.0.0 
+Start: user:valadez bot:jarvis ip: rand:2 (~introductions) 0 ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:44:08 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~control.3.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:44:16 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.1.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar. En que le puedo ayudar hoy?  When:Jan04'15-21:45:10 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:36:33 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.1.0.~control.0.0 
+Command: :build Jarvis
+Start: user:valadez bot:jarvis ip: rand:0 (~introductions) 0 ==> (por favor lea cuidadosamente la introduccion)   Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Jarvis y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar.   En este momento hay dos HERRAMIENTAS del simulador (con fines demostrativos):   1. Obtener un pagerank.   2. Obtener un grafico de vinculos.   Tambien puede ofrecerle informacion acerca de los AVANCES en el (es decir, lo que se tiene implementado hasta el momento), el PLAN DE (lo que se va a implementar en las proximas semanas o meses, de acuerdo a lo que usted quiera saber),  When:Jan04'15-21:45:35 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan04'15-21:45:22 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:13:31 Why:~introductions.1.0.~control.0.0 
+Command: :clean
+Respond: user:valadez bot:jarvis ip: (~introductions) 1   asd ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:46:22 Why:~control.3.0 
+Command: :erase
+Unknown command :erase
+Respond: user:valadez bot:jarvis ip: (~introductions) 2   :erase ==> Lo lamento, pero mi nivel de entendimiento es, de momento, limitado. Tendra que hacer las preguntas correctas.  When:Jan04'15-21:46:29 Why:~control.3.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 3   ?clean ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:54:25 Why:~control.3.0 
+Command: :help(clean)
+Unknown command :help(clean)
+Respond: user:valadez bot:jarvis ip: (~introductions) 4   :help(clean) ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan04'15-21:54:35 Why:~control.3.0 
+Command: :clean
+Command: :commands
+
+---- Debugging commands - 
+:do - Execute the arguments as an output stream, e.g., invoke a function, set variables, etc
+:silent - toggle silent - dont show outputs
+:log - dump message into log file
+:noreact - Disable replying to input
+:retry - Back up and try replacement user input or just redo last sentence
+:say - Make chatbot say this line
+:skip - Erase next n gambits
+:show - All, Input, Mark, Number, Pos, Stats, Topic, Topics, Why, Reject
+:trace - Set trace variable (all none basic prepare match output pattern infer query substitute hierarchy fact control topic pos)
+:why - Show rules causing most recent output
+
+---- Fact info - 
+:allfacts - Write all facts to TMP/facts.tmp
+:facts - Display all facts with given word or meaning or fact set
+:userfacts - Display current user facts
+
+---- Topic info - 
+:gambits - Show gambit sequence of topic
+:pending - Show current pending topics list
+:topicstats - Show stats on all topics or named topic or NORMAL for non-system topics
+:topicinfo - Show information on a topic
+:topics - Show topics that given input resonates with
+:where - What file is the given topic in
+:topicdump - dump rules, one per line
+
+---- System info - 
+:commands - Show all :commands
+:context - Display current context labels
+:conceptlist - Show all concepts- or with argument show concepts starting with argument
+:definition - Show code of macro named
+:functions - List all defined system ^functions
+:identify - Give version data on this CS
+:macros - List all user-defined ^macros and plans
+:memstats - Show memory allocations
+:queries - List all defined queries
+:variables - Display current user/sysytem/match/all variables
+:who - show current login/computer pair
+
+---- Word information - 
+:down - Show wordnet items inheriting from here or concept members
+:concepts - Show concepts triggered by this word
+:findwords - show words matching pattern of letters and *
+:hasflag - List words of given set having or !having some system flag
+:nonset - List words of POS type not encompassed by given set
+:overlap - Direct members of set x that are also in set y somehow
+:up - Display concept structure above a word
+:word - Display information about given word
+
+---- System Control commands - 
+:build - Compile a script - filename {nospell,outputspell,reset}
+:bot - Change to this bot
+:crash - Simulate a server crash
+:flush - Flush server cached user data to files
+:quit - Exit ChatScript
+:reset - Start user all over again, flushing his history
+:restart - Restart Chatscript
+:user - Change to named user, not new conversation
+
+---- Script Testing - 
+:autoreply - [OK,Why] use one of those as all input.
+:prepare - Show results of tokenization, tagging, and marking on a sentence
+:regress - create or test a regression file
+:source - Switch input to named file
+:testpattern - See if a pattern works with an input.
+:testtopic - Try named topic responders on input
+:verify - Given test type & topic, test that rules are accessible. Tests: pattern (default), blocking(default), keyword(default), sample, gambit, all.
+
+---- Document Processing - 
+:document - Switch input to named file/directory as a document {single, echo}
+:wikitext - read wiki xml and write plaintext
+
+---- Analytics - 
+:abstract - Display overview of ChatScript topics
+:dumpscript - Display script rules one per line into TMP/tmp.txt
+:diff - match 2 files and report lines that differ
+:trim - Strip excess off chatlog file to make simple file TMP/tmp.txt
+
+---- internal support - 
+:builddict -  short, short init, or wordnet are options instead of default full
+:clean - Convert source files to NL instead of CR/LF for unix
+:extratopic - given topic name and file as output from :topicdump, build in core topic and use it thereafter
+:pennformat - rewrite penn tagfile (eg as output from stanford) as one liners
+:pennmatch - FILE {raw ambig} compare penn file against internal result
+:pennnoun - locate mass nouns in pennbank
+:pos - Show results of tokenization and tagging
+:sortconcept - Prepare concept file alphabetically
+:timepos - compute wps average to prepare inputs
+:verifypos - Regress pos-tagging using default REGRESS/postest.txt file or named file
+:verifyspell - Regress spell checker against file
+:verifysubstitutes - Regress test substitutes of all kinds
+:worddump - show words via hardcoded test
+Start: user:valadez bot:jarvis ip: rand:5 (~introductions) 4 ==> En que le puedo ayudar hoy?  When:Jan05'15-13:06:18 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:04:54 0:Jan04'15-11:11:49 F:0 P:Jan04'15-21:54:35 Why:~introductions.0.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~introductions) 5   como van los avances del proyecto? ==> En este momento ya estan completas las ramas del analisis de vinculos y la inteligencia artificial en su fase I y listas para ser utilizadas en el simulador. La fase I de las ramas macro e intermedia se encuentran actualmente en desarrollo y de momento no estan integradas sus funcionalidades.  When:Jan05'15-13:06:26 Why:~introductions.4.0 
+Command: :build Jarvis
+Start: user:valadez bot:jarvis ip: rand:6 (~introductions) 5 ==> Bienvenido de nuevo valadez, son las 13: 10 .  When:Jan05'15-13:10:17 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:10:11 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:06:26 Why:~introductions.0.0.~control.0.0 
+Command: :build Jarvis
+Start: user:valadez bot:jarvis ip: rand:6 (~introductions) 5 ==> Bienvenido de nuevo valadez, son las 13: 11 .  When:Jan05'15-13:11:01 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:10:51 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:06:26 Why:~introductions.0.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> (por favor lea cuidadosamente la introduccion)   Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Mivi y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar.   En este momento hay dos HERRAMIENTAS del simulador (con fines demostrativos):   1. Obtener un pagerank.   2. Obtener un grafico de vinculos.   Tambien puede ofrecerle informacion acerca de los AVANCES en el proyecto o el PLAN DE TRABAJO. En que le puedo ayudar hoy?  When:Jan05'15-13:11:11 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:10:51 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:06:26 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 1   Quisiera sacar un pagerank ==> Desea informacion acerca del pagerank?  When:Jan05'15-13:11:18 Why:~pagerank.1.0 
+Command: :build Jarvis
+Start: user:valadez bot:jarvis ip: rand:2 (~introductions) 1 ==> En que le puedo ayudar hoy?  When:Jan05'15-13:11:38 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:11:28 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:11:18 Why:~introductions.0.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> (por favor lea cuidadosamente la introduccion)   Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Mivi y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar.   En este momento hay dos HERRAMIENTAS del simulador (con fines demostrativos):   1. Obtener un pagerank.   2. Obtener un grafico de vinculos.   Tambien puede ofrecerle informacion acerca de los AVANCES en el proyecto o el PLAN DE TRABAJO. En que le puedo ayudar hoy?  When:Jan05'15-13:11:47 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:11:28 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:11:18 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 1   Quisiera sacar un pagerank ==> Desea informacion acerca del pagerank?  When:Jan05'15-13:11:56 Why:~pagerank.1.0 
+Start: user:valadez bot:jarvis ip: rand:2 (~introductions) 1 ==> En que le puedo ayudar hoy?  When:Jan05'15-13:12:21 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:11:28 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:11:56 Why:~introductions.0.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 2   pagerank ==> Desea informacion acerca del pagerank?  When:Jan05'15-13:12:25 Why:~pagerank.1.0 
+Command: :build jarvis
+Start: user:valadez bot:jarvis ip: rand:3 (~introductions) 2 ==> Bienvenido de nuevo valadez, son las 13: 13 .  When:Jan05'15-13:13:29 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:13:19 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:12:25 Why:~introductions.0.0.~control.0.0 
+Command: :build jarvis
+Start: user:valadez bot:jarvis ip: rand:3 (~introductions) 2 ==> Bienvenido de nuevo valadez, son las 13: 14 .  When:Jan05'15-13:14:21 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:14:11 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:12:25 Why:~introductions.0.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> (por favor lea cuidadosamente la introduccion)   Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Mivi y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar.   En este momento hay dos HERRAMIENTAS del simulador (con fines demostrativos):   1. Obtener un pagerank.   2. Obtener un grafico de vinculos.   Tambien puede ofrecerle informacion acerca de los AVANCES en el proyecto o el PLAN DE TRABAJO. En que le puedo ayudar hoy?  When:Jan05'15-13:14:29 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:14:11 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:12:25 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 1   Quisiera sacar un pagerank ==> Esta es la primera vez que utiliza el PageRank en el simulador, desea una introduccion basica acerca del pagerank?  When:Jan05'15-13:14:51 Why:~pagerank.1.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 2   no, ya se como usarlo ==> De acuerdo, introduzca el rfc del contribuyente para obtener su pagerank.  When:Jan05'15-13:15:02 Why:~pagerank.1.6 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 3   NWM9709244W4 ==> A cuantos niveles?  When:Jan05'15-13:16:00 Why:~pagerank.1.7 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 4   3 ==> No he podido procesar su respuesta. Intente ser mas claro.  When:Jan05'15-13:16:07 Why:~control.3.0 
+Command: :build jarvis
+Start: user:valadez bot:jarvis ip: rand:5 (~introductions) 4 ==> En que le puedo ayudar hoy?  When:Jan05'15-13:16:33 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:16:24 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:16:07 Why:~introductions.0.0.~control.0.0 
+Command: :reset user
+Start: user:valadez bot:jarvis ip: rand:1760 (~introductions) 0 ==> (por favor lea cuidadosamente la introduccion)   Bienvenido al simulador economico-fiscal, valadez. Mi nombre es Mivi y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere saber mas sobre algun tema particular del simulador, solo tiene que preguntar.   En este momento hay dos HERRAMIENTAS del simulador (con fines demostrativos):   1. Obtener un pagerank.   2. Obtener un grafico de vinculos.   Tambien puede ofrecerle informacion acerca de los AVANCES en el proyecto o el PLAN DE TRABAJO. En que le puedo ayudar hoy?  When:Jan05'15-13:16:41 Version:4.91 Build0:Dec14'14-20:45:29 Build1:Jan05'15-13:16:24 0:Jan04'15-11:11:49 F:0 P:Jan05'15-13:16:07 Why:~introductions.1.0.~control.0.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 1   Quisiera sacar un pagerank ==> Esta es la primera vez que utiliza el PageRank en el simulador, desea una introduccion basica acerca del pagerank?  When:Jan05'15-13:16:44 Why:~pagerank.1.0 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 2   no, ya se como usarlo ==> De acuerdo, introduzca el rfc del contribuyente para obtener su pagerank.  When:Jan05'15-13:16:54 Why:~pagerank.1.6 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 3   NWM9709244W4 ==> A cuantos niveles?  When:Jan05'15-13:17:03 Why:~pagerank.1.7 
+Respond: user:valadez bot:jarvis ip: (~pagerank) 4   4 ==> Obteniendo el pagerank de la empresa NWM9709244W4 dentro de su red a 4 niveles...  When:Jan05'15-13:17:05 Why:~pagerank.1.8 

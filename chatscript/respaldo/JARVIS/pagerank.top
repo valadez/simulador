@@ -1,0 +1,14 @@
+
+TOPIC: ~pagerank (pagerank page_rank network)
+	
+u: (pagerank de _*) ^keep() ^repeat()
+	$rfc = '_0 
+	A cuantos niveles?
+	a: ( _*) ^keep() ^repeat()
+	$grados = '_0
+	Obteniendo el pagerank de la empresa $rfc dentro de su red a $grados niveles.
+
+u: (pagerank) ^keep() ^repeat() Deseas informacion acerca del pagerank y como funciona
+	a: (yes) Info del pagerank aqui
+	a: (no) De acuerdo, estoy listo para recibir nuevas instrucciones
+

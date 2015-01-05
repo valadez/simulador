@@ -1,0 +1,61 @@
+
+topic: ~INTRODUCTIONS (~emogoodbye ~emohello ~emohowzit name here )
+
+#!x will match on every return start of a conversation 
+t: ( %input<%userfirstline %input>0 ) 
+	^keep() ^repeat()
+	[Bienvenido de nuevo %user, son las %hour: %minute.] [En que le puedo ayudar hoy?]
+
+#!x matches every time on startup of a new conversation
+t: ( %input<%userfirstline ) 
+	^keep()
+	(por favor lea cuidadosamente la introduccion) \n
+	Bienvenido al simulador economico-fiscal, %user. Mi nombre es Mivi y sere su asistente en el uso de esta herramienta. Mi trabajo es recibir 
+	instrucciones y resolver cualquier duda que tenga en el uso de la herramienta o darle informacion adicional sobre el proyecto. Si requiere 
+	saber mas sobre algun tema particular del simulador, solo tiene que preguntar. \n
+	En este momento hay dos HERRAMIENTAS del simulador implementadas (con fines demostrativos): \n 
+	1. Obtener un pagerank. \n 
+	2. Obtener un grafico de vinculos. \n 
+	Tambien puede ofrecerle informacion acerca de los AVANCES en el proyecto o el PLAN DE TRABAJO. En que le puedo ayudar hoy?
+
+#! Cual es tu nombre
+u: ([nombre llamas eres]) ^keep() ^repeat() Mi nombre es Jarvis, a su servicio.
+
+#! Saludos
+u: ([hola buen_dia]) ^keep() ^repeat() Muy buen dia senor, en que le puedo ayudar hoy?	
+	
+u: ([avance avances progreso]) ^keep() ^repeat() En este momento ya estan completas las ramas del analisis de vinculos y la inteligencia artificial 
+	en su fase 	I y listas para ser utilizadas en el simulador. La fase I de las ramas macro e intermedia se encuentran actualmente en desarrollo y 
+	de momento no estan integradas sus funcionalidades.
+	
+u: ([herramienta herramientas])	^keep() ^repeat() La version actual cuenta con dos herramientas: el PageRank y el analisis de vinculos. En versiones
+	posteriores se agregaran nuevas herramientas al simulador.
+	
+u: (version) ^keep() ^repeat() Actualmente el simulador fiscal se encuentra en la version alfa. Tanto mi vocabulario como mi entendimiento 
+	del lenguaje natural esta limitado a las tareas que puede realizar el simulador y los resultados de este son, de momento, ilustrativos. 
+	Versiones posteriores escalaran el software a uno que pueda usarse con datos reales.
+	
+u: ([plan_de_trabajo plan]) ^keep() ^repeat() El plan de trabajo para el periodo enero-febrero contempla la finalizacion de la fase alfa en todas 
+	sus ramas asi como el inicio de la fase beta de las ramas de analisis de vinculos e inteligencia artificial.
+	
+u: ([simulador simular hacer haces capacidad capacidades trabajo ti informacion]) ^keep() ^repeat() El simulador fiscal es un conjunto de modelos 
+	trabajando de manera coordinada para ofrecerle respuestas e informacion que le ayude en la toma de decisiones. En este momento tiene 
+	implementados y listos para probar dos de los modelos de la rama micro: \n
+	1. Pagerank \n
+	2. Analisis de redes. \n
+	En etapas posteriores podra utilizar el simulador para interactuar con modelos de propagacion, hacer predicciones macroeconomicas e 
+	incluso hacer una simulacion economico-fiscal de la economia nacional. Como su asistente, mi trabajo es apoyarlo en el uso del simulador 
+	para que obtenga el maximo beneficio de la herramienta. En cualquier momento puede pedirme mas informacion sobre cualquiera de las 
+	herramientas que ya esten implementadas en el simulador si no esta seguro de que hacer a continuacion.
+
+u: (equipo) El equipo encargado de desarrollar el simulador es Yolo team, compuesto por 8 integrantes con conocimientos en diversas ramas de las ciencias
+	naturales y sociales. El caracter interdisciplinario del equipo es lo que le permite desarrollar soluciones versatiles y acertivas.
+	
+u: ([quien quienes] * [hizo hicieron construyo construyeron creo crearon genero generaron desarrollo desarrollaron]) ^keep() ^repeat() Mi desarrollo
+	esta a cargo del equipo de analiticos de Emanuel Gonzales, de la AGCTI.
+
+u: ([jefe jefes jerarquia])	En el yolo team no hay jefes, cada integrante se coordina con sus companeros para obtener los resultados
+	que se esperan del equipo.
+
+u: (~ramamacrointer) ^keep() ^repeat() Lo lamento, pero en este momento no estan habilitadas las funciones de simulacion macroeconomica.
+	Desea hacer algo mas?

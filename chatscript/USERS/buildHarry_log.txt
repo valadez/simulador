@@ -1,0 +1,29 @@
+﻿
+----Reading file childhood.top
+Reading topic ~childhood
+*** Warning- line 2 of childhood.top: Word childhood only known in opposite case
+*** Warning- line 2 of childhood.top: younger is not a known word. Is it misspelled?
+*** Warning- line 37 of childhood.top: Word snakes only known in opposite case
+
+----Reading file introductions.top
+Reading topic ~introductions
+
+----Reading file keywordless.top
+Reading topic ~keywordless
+*** Warning- line 7 of keywordless.top: Word life only known in opposite case
+
+----Reading file simplecontrol.top
+Reading outputmacro: ^harry
+Reading table tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+*** Warning- line 3 of missingsets.txt: Undefined set or topic ~quibble_all line 64 in simplecontrol.top
+
+WARNING SUMMARY: 
+  line 3 of missingsets.txt: Undefined set or topic ~quibble_all line 64 in simplecontrol.top
+
+1 spelling warnings, 3 case warnings, 0 substitution warnings,  and 1 more serious warnings
+    
+
+Finished compile
+

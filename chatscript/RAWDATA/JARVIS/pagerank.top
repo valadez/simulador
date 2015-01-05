@@ -1,0 +1,28 @@
+
+TOPIC: ~pagerank (pagerank page_rank network peso importancia)
+
+u: ([pagerank peso] [de del]) ^keep() ^repeat() Por favor ingrese el rfc.
+	a: ( _*)
+	$rfc = '_0 
+	^keep() ^repeat() A cuantos niveles?
+	b: ( _*) ^keep() ^repeat()
+	$grados = '_0
+	Obteniendo el pagerank de la empresa $rfc dentro de su red a $grados niveles.
+
+u: (pagerank) Esta es la primera vez que utiliza el PageRank en el simulador, desea una introduccion basica acerca del pagerank?
+	a: (~si) ^keep() ^repeat() PageRank es una familia de algoritmos utilizados por Google para asignar de forma numérica la relevancia de los documentos o paginas web indexados por un motor de busqueda. En el simulador, el PageRank ha sido adaptado para obtener el peso economico o fiscal de contribuyentes registrados en el padron del SAT. Desea saber como se utiliza?
+		b: (~si) ^keep() ^repeat() Simplemente tiene que darme el rfc de un contribuyente de interes y el simulador realizara los calculos necesarios para darle su peso. Desea hacerlo ahora?
+			c: (~si) ^keep() ^repeat() Muy bien, ingrese el rfc del contribuyente.
+			c: (~no) ^keep() ^repeat() Muy bien. Hay algo mas en lo que le pueda servir?
+		b: (~no) ^keep() ^repeat() Muy bien, en que mas lo puedo apoyar?
+	a: (~no) ^keep() ^repeat() De acuerdo, introduzca el rfc del contribuyente para obtener su pagerank.
+		b: ( _*)
+		$rfc = '_0 
+		^keep() ^repeat() A cuantos niveles?
+		c: ( _*) ^keep() ^repeat()
+		$grados = '_0
+		Obteniendo el pagerank de la empresa $rfc dentro de su red a $grados niveles...
+
+u: (test) ^keep() ^repeat() Test de interjeccion. Haga una afirmacion o negacion
+	a: (~si) Acaba de realizar una afirmacion
+	a: (~no) Acaba de realizar una negacion

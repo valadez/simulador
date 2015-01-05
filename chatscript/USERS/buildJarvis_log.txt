@@ -1,0 +1,95 @@
+﻿
+----Reading file introductions.top
+Reading topic ~introductions
+*** Warning- line 22 of introductions.top: nombre is not a known word. Is it misspelled?
+*** Warning- line 22 of introductions.top: llamas is not a known word. Is it misspelled?
+*** Warning- line 22 of introductions.top: eres is not a known word. Is it misspelled?
+*** Warning- line 25 of introductions.top: hola is not a known word. Is it misspelled?
+*** Warning- line 27 of introductions.top: avance is not a known word. Is it misspelled?
+*** Warning- line 27 of introductions.top: avances is not a known word. Is it misspelled?
+*** Warning- line 27 of introductions.top: progreso is not a known word. Is it misspelled?
+*** Warning- line 31 of introductions.top: herramienta is not a known word. Is it misspelled?
+*** Warning- line 31 of introductions.top: herramientas is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: simulador is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: simular is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: hacer is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: haces is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: capacidad is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: capacidades is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: trabajo is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: ti is not a known word. Is it misspelled?
+*** Warning- line 41 of introductions.top: informacion is not a known word. Is it misspelled?
+*** Warning- line 51 of introductions.top: equipo is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: quien is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: quienes is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: hizo is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: hicieron is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: construyo is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: construyeron is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: creo is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: crearon is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: genero is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: generaron is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: desarrollo is not a known word. Is it misspelled?
+*** Warning- line 54 of introductions.top: desarrollaron is not a known word. Is it misspelled?
+*** Warning- line 57 of introductions.top: jefe is not a known word. Is it misspelled?
+*** Warning- line 57 of introductions.top: jefes is not a known word. Is it misspelled?
+*** Warning- line 57 of introductions.top: jerarquia is not a known word. Is it misspelled?
+
+----Reading file keywordless.top
+Reading topic ~keywordless
+
+----Reading file pagerank.top
+Reading topic ~pagerank
+*** Warning- line 2 of pagerank.top: pagerank is not a known word. Is it misspelled?
+*** Warning- line 2 of pagerank.top: importancia is not a known word. Is it misspelled?
+*** Warning- line 4 of pagerank.top: de is not a known word. Is it misspelled?
+*** Warning- line 4 of pagerank.top: Word del only known in opposite case
+
+----Reading file ramas.top
+Reading topic ~ramas
+*** Warning- line 2 of ramas.top: Word rama only known in opposite case
+*** Warning- line 2 of ramas.top: ramas is not a known word. Is it misspelled?
+*** Warning- line 2 of ramas.top: ramamacrointer is not a known word. Is it misspelled?
+*** Warning- line 7 of ramas.top: micro is not a known word. Is it misspelled?
+*** Warning- line 7 of ramas.top: microeconomica is not a known word. Is it misspelled?
+*** Warning- line 7 of ramas.top: microeconomico is not a known word. Is it misspelled?
+*** Warning- line 15 of ramas.top: intermedia is not a known word. Is it misspelled?
+*** Warning- line 25 of ramas.top: macro is not a known word. Is it misspelled?
+*** Warning- line 25 of ramas.top: macroeconomico is not a known word. Is it misspelled?
+*** Warning- line 25 of ramas.top: macroeconomica is not a known word. Is it misspelled?
+
+----Reading file simplecontrol.top
+Reading outputmacro: ^jarvis
+Reading table tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+----Reading file vinculos.top
+Reading topic ~analisis_de_vinculos
+*** Warning- line 2 of vinculos.top: vinculos is not a known word. Is it misspelled?
+*** Warning- line 6 of vinculos.top: analysis is not a known word. Is it misspelled?
+Reading topic ~networkinterface
+*** Warning- line 22 of vinculos.top: interface is not a known word. Is it misspelled?
+*** Warning- line 39 of vinculos.top: estatico is not a known word. Is it misspelled?
+*** Warning- line 39 of vinculos.top: estatica is not a known word. Is it misspelled?
+*** Warning- line 39 of vinculos.top: Word pdf only known in opposite case
+*** Warning- line 40 of vinculos.top: dinamico is not a known word. Is it misspelled?
+*** Warning- line 40 of vinculos.top: dinamica is not a known word. Is it misspelled?
+*** Warning- line 42 of vinculos.top: redes is not a known word. Is it misspelled?
+*** Warning- line 1 of missingsets.txt: Undefined set or topic ~ramamacrointer line 60 in introductions.top
+*** Warning- line 2 of missingsets.txt: Undefined set or topic ~si line 13 in pagerank.top
+*** Warning- line 5 of missingsets.txt: Undefined set or topic ~quibble_all line 64 in simplecontrol.top
+
+WARNING SUMMARY: 
+  line 1 of missingsets.txt: Undefined set or topic ~ramamacrointer line 60 in introductions.top
+
+  line 2 of missingsets.txt: Undefined set or topic ~si line 13 in pagerank.top
+
+  line 5 of missingsets.txt: Undefined set or topic ~quibble_all line 64 in simplecontrol.top
+
+54 spelling warnings, 3 case warnings, 0 substitution warnings,  and 3 more serious warnings
+    
+
+Finished compile
+

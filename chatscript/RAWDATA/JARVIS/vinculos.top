@@ -1,0 +1,54 @@
+
+TOPIC: ~analisis_de_vinculos (vinculos analisis_de_vinculos red_social)
+	
+# Invoca el analisis de redes de un RFC.
+# Se guarda el rfc en una variable.
+u: (network analysis _*)
+$rfc = '_0 
+^keep() ^repeat()
+How many levels ?  
+a: ( _*)  
+$grados = '_0
+u: () Ok, starting network analysis of $rfc whit $grados levels.
+^system("@echo" $rfc $grados > C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosEntrada\ParametroRedes.txt")
+^system("C:\Users\user\Desktop\R\R-3.1.2\bin\x64\R.exe" CMD BATCH --vanilla --slave "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\BotInvocaRed_v001.R" "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosSalida\salidanetwork.txt")
+^system("C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\Grafico.pdf")
+Network analysis done.	
+	
+
+topic: ~NETWORKINTERFACE (network_interface)
+
+# Invoca la interfaz de redes construida en R.
+u: (network interface _*)
+$rfc = '_0 
+^keep() ^repeat()
+How many levels ?  	
+a: ( _*)  
+$grados = '_0
+Ok, starting network analysis interface. $rfc whit $grados levels.
+^system("@echo" $rfc $grados > C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosEntrada\ParametroRedesInterfaz.txt")
+^system("C:\Users\user\Desktop\R\R-3.1.2\bin\x64\R.exe" CMD BATCH --vanilla --slave "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\BotInvocaIterfaceRed_v001.R" "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosSalida\salidanetinter.txt")
+	
+	
+u: (red social de _*) ^keep() ^repeat()
+	$rfc = '_0 
+	A cuantos niveles?
+	a: ( _*) ^keep() ^repeat()
+		$grados = '_0
+		Desea obtener una grafica estatica en pdf o trabajar con el software Shiny de manera dinamica?
+		b: ([estatico estatica pdf]) ^keep() ^repeat() Obteniendo la red social de la empresa $rfc dentro de su red a $grados niveles.
+		b: ([dinamico dinamica shiny]) ^keep() ^repeat() Redirigiendo al software de Shiny.
+		
+u: ([vinculos red redes social vinculos]) ^keep() ^repeat() Desea informacion acerca del analisis de vinculos?
+	a: (~si) ^keep() ^repeat() El analisis de vinculos le ayuda a visualizar las relaciones de un contribuyente con sus socios. A partir de
+	su red puede encontrar mucha informacion relevante sobre el contribuyente. Actualmente el análisis de vínculos está en la fase de pruebas y por lo 
+	tanto sus capacidades son, de momento, limitadas. Desea saber cómo utilizar el análisis de vínculos?
+		b: (~si) ^keep() ^repeat() Simplemente tiene que darme el rfc de un contribuyente de interes y el simulador realizará la tarea y le
+		permitirá visualizar el resultado. Desea hacerlo ahora?
+			c: (~si) ^keep() ^repeat() Muy bien, ingrese el rfc del contribuyente.
+			c: (~no) ^keep() ^repeat() Muy bien. Hay algo mas en lo que le pueda servir?
+		b: (~no) ^keep() ^repeat() Muy bien, en que mas lo puedo apoyar?
+	a: (~no) ^keep() ^repeat() De acuerdo, estoy listo para recibir nuevas instrucciones.
+
+	
+	
