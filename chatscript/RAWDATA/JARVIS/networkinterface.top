@@ -1,0 +1,14 @@
+
+topic: ~NETWORKINTERFACE (interfaz_redes)
+
+# Invoca la interfaz de redes construida en R.
+u: (interfaz redes _*)
+$rfc = '_0 
+^keep() ^repeat()
+How many levels ?  	
+a: ( _*)  
+$grados = '_0
+Ok, starting network analysis interface. $rfc whit $grados levels.
+^system("@echo" $rfc $grados > C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosEntrada\ParametroRedesInterfaz.txt")
+^system("C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\my_app\test.bat")
+# ^system("C:\Users\user\Desktop\ChatScript\chatscript.exe" CMD BATCH "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\my_app\test.bat" "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosSalida\salidanetinter.txt")

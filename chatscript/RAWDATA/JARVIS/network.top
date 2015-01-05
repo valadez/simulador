@@ -1,0 +1,16 @@
+
+topic: ~NETWORK (red_social red network analisis_vinculo)
+
+# Invoca el analisis de redes de un RFC.
+# Se guarda el rfc en una variable.
+u: (network analysis _*)
+$rfc = '_0 
+^keep() ^repeat()
+How many levels ?  
+a: ( _*)  
+$grados = '_0
+u: () Ok, starting network analysis of $rfc whit $grados levels.
+^system("@echo" $rfc $grados > C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosEntrada\ParametroRedes.txt")
+^system("C:\Users\user\Desktop\R\R-3.1.2\bin\x64\R.exe" CMD BATCH --vanilla --slave "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\BotInvocaRed_v001.R" "C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\ParametrosSalida\salidanetwork.txt")
+^system("C:\Users\user\Documents\Mauricio_0115\SistemasExpertos\Grafico.pdf")
+Network analysis done.
